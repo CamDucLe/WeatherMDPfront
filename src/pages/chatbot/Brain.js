@@ -8,7 +8,8 @@ class Brain extends Component {
         this.state = {
             data: "",
             user_input: props.previousStep.message,
-            code: false
+            code: false,
+            voice: null,
         };
     }
 
@@ -22,7 +23,7 @@ class Brain extends Component {
         return (
             <div>
                 {this.state.data}
-                {this.state.code && <Say text={this.state.data}/>}
+                {this.state.code && <Say text={this.state.data} lang="en-US"/>}
             </div>
         );
     }
