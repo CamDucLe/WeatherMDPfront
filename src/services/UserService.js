@@ -42,9 +42,10 @@ class UserService {
 
     async _chatbotHelper(place) {
         if (localStorage.getItem(place) == null) {
+            const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
             if (place === "Ho Chi Minh City") {
                 let data = null;
-                const url = `https://api.openweathermap.org/data/2.5/weather?q=${place}&units=metric&appid=895284fb2d2c50a520ea537456963d9c`
+                const url = `https://api.openweathermap.org/data/2.5/weather?q=${place}&units=metric&appid=${API_KEY}`
                 return axios
                     .get(url)
                     .then(async(response) => {
@@ -70,7 +71,7 @@ class UserService {
                     })
 
             } else {
-                const url = `https://api.openweathermap.org/data/2.5/weather?q=${place}&units=metric&appid=895284fb2d2c50a520ea537456963d9c`
+                const url = `https://api.openweathermap.org/data/2.5/weather?q=${place}&units=metric&appid=${API_KEY}`
                 return axios
                     .get(url)
                     .then(async(response) => {
@@ -117,8 +118,8 @@ class UserService {
                     time = raw_bot_response.match(time_regexp)[0];
                 }
 
-                //DEBUG console.log(`Place: ${place}, Time: ${time}`);
-                // do something to get all the data or just a few neccessary stuff for user that
+                // DEBUG console.log(`Place: ${place}, Time: ${time}`); do something to get all
+                // the data or just a few neccessary stuff for user that
                 if (place != null) {
                     await this._chatbotHelper(place);
                     let data = JSON.parse(localStorage.getItem(place))
