@@ -163,6 +163,8 @@ class UserService {
                         .replaceAll("$$", "")
                     //DEBUG console.log(bot_response)
                     return bot_response
+                } else {
+                    return bot_response
                 }
             });
     }

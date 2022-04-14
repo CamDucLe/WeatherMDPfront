@@ -9,7 +9,7 @@ class Brain extends Component {
             data: "",
             user_input: props.previousStep.message,
             code: false,
-            voice: null,
+            voice: null
         };
     }
 
