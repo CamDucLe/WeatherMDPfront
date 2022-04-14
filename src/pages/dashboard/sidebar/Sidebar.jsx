@@ -44,7 +44,7 @@ const Sidebar = () => {
          
           
           <p className="title">Others</p>
-          <a href="https://github.com/Cam-Duc-Le" target="_blank" rel="noreferrer">
+          <a href="https://github.com/CIYech" target="_blank" rel="noreferrer">
             <li>
               <GitHubIcon className="icon" />
               <span>Github</span>
