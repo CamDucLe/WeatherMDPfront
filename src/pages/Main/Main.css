@@ -278,12 +278,12 @@ body{
     }
 
     .place-container .time-zone{
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 450;
     }
 
     .place-container .country{
-        font-size: 17px;
+        font-size: 22px;
         font-weight: 600;
     }
 
@@ -321,5 +321,12 @@ body{
   .future-forecast .today{
       padding: 10px;
       margin-right: 5px;
+  }
+  .place-container .time-zone{
+      text-align: center;
+  }
+
+  .place-container .country{
+      text-align: center;
   }
 }
