@@ -31,6 +31,7 @@ body{
 }
 
 .current-info{
+    /* height: 500px; */
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -40,6 +41,7 @@ body{
 }
 .date-container{
     font-weight: 120;
+    width: 350px;
 }
 .date-container .time{
     font-size: 72px;
@@ -136,8 +138,8 @@ body{
     font-size: 1.27rem;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
-    align-self: flex-end;
-    transform: translateY(-38px);
+    /* align-self: flex-end; */
+    transform: translateY(230px);
   }
 
 
