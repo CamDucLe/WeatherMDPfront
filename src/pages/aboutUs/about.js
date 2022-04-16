@@ -50,8 +50,7 @@ const About = () => {
               <h2>Nguyen Le Nhat Duong</h2>
               <p class="title">Backend Developer</p>
               <p>
-                Youngblood from Da Nang city who can speak 5 different
-                languages.
+              Youngblood from Da Nang city who is able to speak 5 different languages fluently.
               </p>
               <p>duong.nguyen01@hcmut.edu.vn</p>
               <p>
@@ -90,8 +89,7 @@ const About = () => {
               <h2>Nguyen Dinh Nam</h2>
               <p class="title">IoT Developer</p>
               <p>
-                A quiet Saigonese who loves food, traveling and is also a music
-                producer.
+              A quiet Saigonese who loves food, traveling and dreams to be a music producer.
               </p>
               <p>nam.nguyen.2003@hcmut.edu.vn</p>
               <p>
@@ -110,7 +108,7 @@ const About = () => {
               <h2>Nguyen Minh Tam</h2>
               <p class="title">Frontend Developer</p>
               <p>
-                A Saigonese who loves cats, basketball and always dreams big.
+              Saigonese who loves cats, basketball and enjoys hanging out with friends and family.
               </p>
               <p>tam.nguyen2702@hcmut.edu.vn</p>
               <p>

@@ -4,6 +4,7 @@
 }
 .About .h2{
     text-align:center;
+    
 }
 .About .column {
     float: left;
@@ -58,10 +59,9 @@
     background-color: #555;
   }
 
-  h2 {
+  .h2{
     font-size: 23px;
   }
-  
  @media screen and (max-width: 650px) {
     .column {
       width: 100%;
