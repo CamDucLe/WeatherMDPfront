@@ -264,7 +264,7 @@ const Main = () => {
         <div>Clouds</div>
         <div>${clouds} %</div>
     </div>
-    
+
 
     <div class="weather-item">
         <div>Sunrise</div>
@@ -274,7 +274,7 @@ const Main = () => {
         <div>Sunset</div>
         <div>${window.moment(sunset * 1000).format("HH:mm a")}</div>
     </div>
-    
+
     `;
     }
 
@@ -293,7 +293,7 @@ const Main = () => {
                 <div class="temp">Night - ${day.temp.night}&#176;C</div>
                 <div class="temp">Day - ${day.temp.day}&#176;C</div>
             </div>
-            
+
             `;
         } else {
           otherDayForcast += `
@@ -307,7 +307,7 @@ const Main = () => {
                 <div class="temp">Night - ${day.temp.night}&#176;C</div>
                 <div class="temp">Day - ${day.temp.day}&#176;C</div>
             </div>
-            
+
             `;
         }
       });
@@ -335,18 +335,6 @@ const Main = () => {
               </div>
             </div>
 
-            <div className="place-container">
-              <div className="time-zone" id="time-zone">
-                Asia/VungTau
-              </div>
-              <div id="coordinates" className="coordinates"></div>
-              <div id="country" className="country">
-                VN
-              </div>
-              <div className="search" id="search">
-                <input id="input" placeholder="Input a location" type="text" />
-              </div>
-            </div>
             <div className="recommend" id="recommend">
               <div className="classify">
                 <p>Try out</p>
@@ -394,6 +382,20 @@ const Main = () => {
                 </svg>
               </div>
             </div>
+
+            <div className="place-container">
+              <div className="time-zone" id="time-zone">
+                Asia/VungTau
+              </div>
+              <div id="coordinates" className="coordinates"></div>
+              <div id="country" className="country">
+                VN
+              </div>
+              <div className="search" id="search">
+                <input id="input" placeholder="Input a location" type="text" />
+              </div>
+            </div>
+
           </div>
         </div>
 
