@@ -90,16 +90,15 @@ body{
   text-align: center;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
-  /* width: 80%; */
 }
 ::placeholder {
   color: #ffc040;
 }
 
 .place-container{
+    transform: translateY(60px);
     text-align: right;
     margin-top: 10px;
-    /* margin-right: 5.7rem; */
 }
 
 .place-container .time-zone{
@@ -121,7 +120,6 @@ body{
     justify-content: space-between;
 }
 .recommend {
-    /* position: absolute; */
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -131,7 +129,6 @@ body{
     /* margin-left: 32rem; */
     padding: 1rem;
     border-radius: 12px;
-    /* background-color: rgba(255,255,255, 0.2); */
     background: rgba(24,24,27, 0.6);
     /* color: #e6d27b; */
     color: #ffc040;
@@ -317,7 +314,8 @@ body{
     transform: none;
   }
   .place-container{
-    margin-bottom: 40vh;
+    margin-bottom: 230px;
+    transform: none;
   }
   .future-forecast {
       padding: 10px;
