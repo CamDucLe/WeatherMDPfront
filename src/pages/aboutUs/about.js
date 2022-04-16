@@ -20,7 +20,7 @@ const About = () => {
         </p>
         <address>Mahatma Gandhi</address>
       </div>
-
+      <div class="content">
       <h2>Team Members</h2>
       <div class="row">
         <div class="column">
@@ -132,6 +132,7 @@ const About = () => {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>

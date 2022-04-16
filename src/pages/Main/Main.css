@@ -36,7 +36,7 @@ body{
     flex-wrap: nowrap;
     justify-content: space-between;
     /* margin-top: 4rem; */
-    align-items: center;
+    align-items: start;
 }
 .date-container{
     font-weight: 120;
@@ -96,8 +96,8 @@ body{
 
 .place-container{
     text-align: right;
-    /* margin-top: 1.5rem;
-    margin-right: 5.7rem; */
+    margin-top: 10px;
+    /* margin-right: 5.7rem; */
 }
 
 .place-container .time-zone{
@@ -136,6 +136,8 @@ body{
     font-size: 1.27rem;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
+    align-self: flex-end;
+    transform: translateY(-38px);
   }
 
 
@@ -298,6 +300,9 @@ body{
   .main{
     overflow: auto;
   }
+  .date-container{
+    width: 100%;
+  }
   .current-info{
       flex-wrap: wrap;
       justify-content: center;
@@ -307,6 +312,7 @@ body{
   }
   .recommend{
     width: 100%;
+    transform: none;
   }
   .place-container{
     margin-bottom: 40vh;

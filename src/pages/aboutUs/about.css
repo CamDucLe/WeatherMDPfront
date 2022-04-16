@@ -1,13 +1,16 @@
 .About{
     box-sizing: inherit;
     box-sizing: border-box;
-    padding-bottom: 30px;
-    background-color: #fafafa;
+    background-color: #474e5d;
 }
 .About h2{
   text-align: center;
   margin: 10px 0;
   color: #474e5d;
+}
+.About .content{
+  padding-bottom: 30px;
+  background-color: #fafafa;
 }
 
 .About .row{
